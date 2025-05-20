@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shortcom/static/css/main.6118d034.css",
+    "main.js": "/shortcom/static/js/main.f2b3c4c8.js",
+    "index.html": "/shortcom/index.html",
+    "main.6118d034.css.map": "/shortcom/static/css/main.6118d034.css.map",
+    "main.f2b3c4c8.js.map": "/shortcom/static/js/main.f2b3c4c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6118d034.css",
+    "static/js/main.f2b3c4c8.js"
+  ]
+}
