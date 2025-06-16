@@ -2,7 +2,7 @@
    .hero-slider {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 90vh;
     overflow: hidden;
   }
   
@@ -50,10 +50,7 @@
   }
   
 
-@media (max-width: 768px) {
-  .hero-slider {
-    height: 250px; 
-  }
+@media (max-width: 768px) { 
 
   .rolling-ball {
     width: 50px;
@@ -65,10 +62,7 @@
   }
 }
 
-@media (max-width: 480px) {
-  .hero-slider {
-    height: 200px;
-  }
+@media (max-width: 480px) { 
 
   .rolling-ball {
     width: 40px;
