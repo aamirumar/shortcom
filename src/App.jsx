@@ -79,7 +79,7 @@ const TopNav = ({ cartCount }) => {
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
          
-          <li><Link to="/products" onClick={() => setIsOpen(false)}>Products</Link></li>
+          <li><Link to="/products" onClick={() => setIsOpen(false)}>Producters</Link></li>
           <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact Us</Link></li>
           <li className="cart-link">
             <Link to="/cart" onClick={() => setIsOpen(false)}>🛒 Cart</Link>
