@@ -34,7 +34,7 @@
 // export default HeroSlider;
 
 import React, { useState, useEffect } from 'react';
-import './HeroSlider.css';
+import './HeroSliderStyle.css';
 
 const images = [
   '/Img/mutton-bonless.png',

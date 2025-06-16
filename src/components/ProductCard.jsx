@@ -1,6 +1,7 @@
 // ProductCard.jsx
 import React, { useState } from 'react';
-
+// import imageLamb from "../public/Img/Chicken-Liver.png"
+// import images from  "../../public/"
 const ProductCard = ({ product, onCartChange }) => {
   const [quantity, setQuantity] = useState(0);
 
@@ -17,8 +18,8 @@ const ProductCard = ({ product, onCartChange }) => {
   };
 
   return (
-    <div className="product-card">
-      <img src={product.image} alt={product.name} />
+    <div className="product-card"> 
+      <img src={product.image} alt={product.name} />  
       <h3>{product.name}</h3>
       <p>{product.description}</p>
       <p>₹{product.price}</p>
